@@ -1,5 +1,5 @@
 # Node modules
-node_modules/
+/node_modules/
 
 # Logs
 logs
@@ -7,7 +7,7 @@ logs
 npm-debug.log*
 
 # Env files
-.env
+/Users/uttamsinghal/Downloads/QuickChat-Full-Stack/server/.env
 
 # Build outputs
 dist/
