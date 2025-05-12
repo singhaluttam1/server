@@ -1,5 +1,5 @@
 # Node modules
-/node_modules/
+node_modules/
 
 # Logs
 logs
@@ -7,10 +7,12 @@ logs
 npm-debug.log*
 
 # Env files
-/Users/uttamsinghal/Downloads/QuickChat-Full-Stack/server/.env
+.env
 
 # Build outputs
 dist/
+client/dist/
+server/dist/
 
 # OS-specific
 .DS_Store
@@ -20,5 +22,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Lock files (optional)
-package-lock.json
+# Optional: lock files if not using exact versions
+# package-lock.json
+# yarn.lock

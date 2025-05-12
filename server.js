@@ -10,7 +10,7 @@ import { Server } from "socket.io";
 // Allowlisted origins
 const allowedOrigins = [
   "http://localhost:5175", // Dev
-  "https://your-frontend.vercel.app" // 🔁 Replace with your actual deployed frontend URL
+  "https://chating-frontend-qqhw.onrender.com"
 ];
 
 // Create Express app and HTTP server
@@ -69,7 +69,7 @@ const startServer = async () => {
   try {
     await connectDB();
 
-    const PORT = process.env.PORT || 3002;
+    const PORT = process.env.PORT || 3001;
     server.listen(PORT, () => {
       console.log(`🚀 Server running on port ${PORT}`);
     });
